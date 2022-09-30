@@ -63,25 +63,26 @@ const RecentPlays = () => (
 
 const styles = StyleSheet.create({
     container : {
-        justifyContent : 'space-around',
+        justifyContent : 'space-between',
         flexDirection : 'row',
-        marginBottom : 10,
-        alignItems : 'center'
+        marginBottom : 5,
+        marginHorizontal : 10,
+        alignItems : 'space-between'
     },
     
     card : {
         backgroundColor : '#282828',
         borderRadius : 5,
-        width : 155,
-        height : 55,
+        width : 157,
+        height : 60,
         flexDirection : 'row',
         alignItems : 'center',
         overflow : 'hidden',
     },
     
     thumb : {
-        height : 50,
-        width : 50,
+        height : 60,
+        width : 60
     },
 
     title : {
