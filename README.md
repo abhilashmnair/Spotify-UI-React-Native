@@ -18,9 +18,9 @@
 ## Screenshots
 <table>
   <tr>
-    <td><img src = "https://raw.githubusercontent.com/abhilashmnair/Spotify-UI-React-Native/master/assets/screenshots/home.jpg" width = '100'></td>
-    <td><img src = "https://raw.githubusercontent.com/abhilashmnair/Spotify-UI-React-Native/master/assets/screenshots/player.jpg" width = '100'></td>
-    <td><img src = "https://raw.githubusercontent.com/abhilashmnair/Spotify-UI-React-Native/master/assets/screenshots/search.jpg" width = '100'></td>
+    <td><img src = "https://raw.githubusercontent.com/abhilashmnair/Spotify-UI-React-Native/master/assets/screenshots/home.jpg" width = '200'></td>
+    <td><img src = "https://raw.githubusercontent.com/abhilashmnair/Spotify-UI-React-Native/master/assets/screenshots/player.jpg" width = '200'></td>
+    <td><img src = "https://raw.githubusercontent.com/abhilashmnair/Spotify-UI-React-Native/master/assets/screenshots/search.jpg" width = '200'></td>
   </tr>
   <tr>
     <td>Home Screen</td>
