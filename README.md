@@ -25,7 +25,7 @@
   <tr>
     <td>Home Screen</td>
     <td>Player Screen</td>
-    <td><Search Screen</td>
+    <td>Search Screen</td>
   </tr>
 </table>
 
