@@ -1,4 +1,4 @@
-# My Universal React Project
+# Spotify UI Design using React Native
 
 <p>
   <!-- iOS -->

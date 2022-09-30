@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "blank",
-    "slug": "blank",
+    "name": "Spotify Clone",
+    "slug": "spotify-clone",
     "version": "1.0.0",
+    "orientation": "portrait",
     "platforms": [
       "ios",
       "android",
