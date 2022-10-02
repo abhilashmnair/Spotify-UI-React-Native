@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, StatusBar, SafeAreaView, ScrollView} from 'react-native'
+import { StyleSheet, StatusBar, SafeAreaView, ScrollView} from 'react-native'
 import React from 'react'
 import { LinearGradient } from 'expo-linear-gradient'
 import Footer from '../components/search/Footer'

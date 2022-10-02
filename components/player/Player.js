@@ -133,11 +133,11 @@ const Player = ({navigation}) => {
                         marginLeft : 10
                     }} > LYRICS </Text>
                     <Text style = {styles.lyrics}>{LYRICS}</Text>
-                    <TouchableOpacity>
+                    <TouchableOpacity style = {{flexDirection : 'row', alignItems : 'flex-end', justifyContent : 'flex-end'}}>
                         <View style = {styles.shareContainer}>
                             <Image 
                                 source = {{ uri : 'https://img.icons8.com/fluency-systems-regular/ffffff/60/share.png'}}
-                                style = {{width : 10, height : 10, marginBottom : 2, marginRight : 10}} />
+                                style = {{width : 10, height : 10, marginRight : 10}} />
                             <Text style = {styles.shareText}>SHARE</Text>
                         </View>
                     </TouchableOpacity>
@@ -174,9 +174,14 @@ const styles = StyleSheet.create({
 
     shareContainer : {
         flexDirection : 'row',
-        justifyContent : 'flex-end',
-        alignItems : 'flex-end',
-        margin : 30
+        justifyContent : 'center',
+        alignItems : 'center',
+        margin : 30,
+        borderColor : 'white',
+        borderRadius : 30,
+        width : 100,
+        height : 30,
+        borderWidth : 0.2
     },
 
     shareText :{

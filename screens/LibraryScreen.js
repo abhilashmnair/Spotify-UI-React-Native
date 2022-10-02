@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, SafeAreaView, ScrollView } from 'react-native'
+import { StyleSheet, SafeAreaView, ScrollView } from 'react-native'
 import React from 'react'
 import Header from '../components/library/Header'
 import Footer from '../components/library/Footer'

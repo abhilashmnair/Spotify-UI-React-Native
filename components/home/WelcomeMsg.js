@@ -5,10 +5,10 @@ const WelcomeMsg = () => {
     const today = new Date().toLocaleTimeString()
     let msg = ''
     if (today < '12:00:00') {msg = 'Good morning' 
-    } else if (today < '18:00:00') { msg = 'Good afternoon'
+    } else if (today < '16:00:00') { msg = 'Good afternoon'
     } else { msg = 'Good evening' }
     return (
-            <Text style = {styles.headerText}>{msg}</Text>
+        <Text style = {styles.headerText}>{msg}</Text>
   )
 }
 
