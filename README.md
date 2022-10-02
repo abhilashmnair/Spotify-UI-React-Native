@@ -18,15 +18,16 @@
 ## Screenshots
 <table>
   <tr>
-    <td><img src = "https://raw.githubusercontent.com/abhilashmnair/Spotify-UI-React-Native/master/assets/screenshots/home.jpg" width = '200'></td>
-    <td><img src = "https://raw.githubusercontent.com/abhilashmnair/Spotify-UI-React-Native/master/assets/screenshots/player.jpg" width = '200'></td>
-    <td><img src = "https://raw.githubusercontent.com/abhilashmnair/Spotify-UI-React-Native/master/assets/screenshots/search.jpg" width = '200'></td>
-    <td><img src = "https://raw.githubusercontent.com/abhilashmnair/Spotify-UI-React-Native/master/assets/screenshots/library.jpg" width = '200'></td>
+    <td><img src = "https://raw.githubusercontent.com/abhilashmnair/Spotify-UI-React-Native/master/assets/screenshots/home.jpg" width = '50%'></td>
+    <td><img src = "https://raw.githubusercontent.com/abhilashmnair/Spotify-UI-React-Native/master/assets/screenshots/player.jpg" width = '50%'></td>
+    <td><img src = "https://raw.githubusercontent.com/abhilashmnair/Spotify-UI-React-Native/master/assets/screenshots/search.jpg" width = '50%'></td>
+    <td><img src = "https://raw.githubusercontent.com/abhilashmnair/Spotify-UI-React-Native/master/assets/screenshots/library.jpg" width = '50%'></td>
   </tr>
   <tr>
     <td>Home Screen</td>
     <td>Player Screen</td>
     <td>Search Screen</td>
+    <td>Library Screen</td>
   </tr>
 </table>
 
