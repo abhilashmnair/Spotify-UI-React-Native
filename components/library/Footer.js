@@ -25,7 +25,7 @@ const Footer = ({navigation}) => {
     const Icon = ({icon, iconStyle}) => (
         <TouchableOpacity onPress ={() => {
                 setActiveTab(icon.icon);
-                icon.icon == 'home' ? navigation.push('HomeScreen') : icon.icon == 'library' ? navigation.push('LibraryScreen') : null}} 
+                icon.icon == 'search' ? navigation.push('SearchScreen') : icon.icon == 'home' ? navigation.push('HomeScreen') : null}} 
                 style = {{alignItems : 'center'}}>
             <Image source = {{uri : activeTab == icon.icon ? icon.active : icon.inactive}} style = {iconStyle} />
             <Text style = {styles.text}>{icon.icon}</Text>
