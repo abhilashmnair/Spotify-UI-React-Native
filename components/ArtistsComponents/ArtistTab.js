@@ -1,7 +1,10 @@
 import { View, Text, StyleSheet, Image, TouchableOpacity, ScrollView } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 import React from 'react'
-import { ARTISTTOPALBUMS, ARTISTTOPTRACKS } from '../../assets/data/artistTopSongs'
+import {getArtistTopTracks, getArtistAlbums} from '../../scripts/fetchArtist'
+
+var ARTISTTOPTRACKS = getArtistTopTracks('0mO3Yf5XIPHfAbHh8yWLFk')
+var ARTISTTOPALBUMS = getArtistAlbums('0mO3Yf5XIPHfAbHh8yWLFk')
 
 const TopTracks = () => {
     return (
@@ -26,8 +29,7 @@ const TopTracks = () => {
                 <View>
                     <Text style = {{ fontSize : 17, color : 'white', marginBottom : 15, marginHorizontal : 20, fontWeight : 'bold'}}>Popular</Text>
                 </View>
-                {
-                    ARTISTTOPTRACKS.map((item, index) => {
+                { ARTISTTOPTRACKS.map((item, index) => {
                         return(
                             <View style = {styles.itemContainer} key = {index}>
                                 <TouchableOpacity activeOpacity = {0.5}>

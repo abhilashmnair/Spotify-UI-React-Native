@@ -2,10 +2,10 @@ import { View, Text, Image, StyleSheet, TouchableOpacity } from 'react-native'
 import React from 'react'
 import { CARDS } from '../../assets/data/recentCards'
 
-const RecentPlays = () => (
+const RecentPlays = ({navigation}) => (
     <View style = {{margin : 10}}>
         <View style = {styles.container}>
-            <TouchableOpacity style = {styles.card}>
+            <TouchableOpacity style = {styles.card} onPress = {() => { navigation.push('ArtistScreen')}} >
                 <Image
                     style = {styles.thumb} 
                     source = {{uri : CARDS[0]['image']}}/>

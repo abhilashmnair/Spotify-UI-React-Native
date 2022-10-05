@@ -2,7 +2,7 @@ import { SafeAreaView, StyleSheet, StatusBar } from 'react-native'
 import Header from '../components/ArtistsComponents/Header'
 import React from 'react'
 import TopTracks from '../components/ArtistsComponents/ArtistTab'
-import Footer from '../components/library/Footer'
+import Footer from '../components/ArtistsComponents/Footer'
 import NowPlaying from '../components/home/NowPlaying'
 
 const ArtistScreen = ({navigation}) => {

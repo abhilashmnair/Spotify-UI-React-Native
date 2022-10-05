@@ -14,7 +14,7 @@ const HomeScreen = ({navigation}) => {
         <LinearGradient colors={['#707070', '#090909', '#000000']}>
         <ScrollView>
           <Header />
-          <RecentPlays />
+          <RecentPlays navigation = {navigation} />
           <MainCards />
         </ScrollView>
         <NowPlaying navigation = {navigation} />
